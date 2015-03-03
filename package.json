@@ -1,0 +1,31 @@
+{
+  "name": "castmycode",
+  "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zulfajuniadi/castmycode-agent.git"
+  },
+  "description": "Telecast Your Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Zulfa Juniadi bin Zulkifli"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "async": "^0.9.0",
+    "diff": "^1.2.2",
+    "isbinaryfile": "^2.0.3",
+    "qrcode-terminal": "^0.9.5",
+    "readlines": "0.0.8",
+    "restler": "^3.2.2",
+    "walk": "^2.3.9",
+    "watch": "^0.14.0"
+  },
+  "bin": {
+    "castmycode": "./bin/castmycode"
+  }
+}
