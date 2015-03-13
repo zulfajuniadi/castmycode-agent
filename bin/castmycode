@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-var agent = require('../lib/agent.js');
+var cast = require('../lib/cast.js');
 
-agent.init(process.cwd());
+cast.init(process.cwd());

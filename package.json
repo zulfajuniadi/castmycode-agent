@@ -1,6 +1,6 @@
 {
   "name": "castmycode",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/zulfajuniadi/castmycode-agent.git"
@@ -25,6 +25,7 @@
     "watch": "^0.14.0"
   },
   "bin": {
-    "castmycode": "./bin/castmycode"
+    "castmycode": "./bin/castmycode",
+    "uncastmycode": "./bin/uncastmycode"
   }
 }
